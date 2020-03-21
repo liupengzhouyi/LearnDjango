@@ -22,5 +22,5 @@ from . import hello
 urlpatterns = [
     path('admin/', admin.site.urls),
     # url(r'^$', hello.hello),
-    path('hello/', hello.hello),
+    # path('hello/', hello.hello),
 ]
