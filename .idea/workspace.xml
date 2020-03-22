@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polls/templates/polls/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/241c1541-a1a1-4d5f-ac71-88084e16bcab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/241c1541-a1a1-4d5f-ac71-88084e16bcab.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +69,12 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
@@ -102,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584796887364</updated>
       <workItem from="1584796889098" duration="1374000" />
-      <workItem from="1584883301997" duration="899000" />
+      <workItem from="1584883301997" duration="3514000" />
     </task>
     <task id="LOCAL-00001" summary="Django 升级到 3.0+ V 2.0.0">
       <created>1584797714190</created>
@@ -125,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584798255968</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Django user loading V 2.0.3">
+      <created>1584884521166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584884521166</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,36 +166,41 @@
     <MESSAGE value="Django 升级到 3.0+ V 2.0.0" />
     <MESSAGE value="Django Create polls V 2.0.1" />
     <MESSAGE value="Django Hello World V 2.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django Hello World V 2.0.2" />
+    <MESSAGE value="Django user loading V 2.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Django user loading V 2.0.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="191" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584883977311">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="191" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1584883977311" />
-    <state x="305" y="48" key="CommitChangelistDialog2" timestamp="1584798255789">
+    <state x="305" y="48" key="CommitChangelistDialog2" timestamp="1584884520964">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="305" y="48" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1584798255789" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1584798285448">
+    <state x="305" y="48" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1584884520964" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1584887605720">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584798285448" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1584798285447">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584887605720" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1584887605720">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584798285447" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1584798285446">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584887605720" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1584887605719">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584798285446" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1584798285447">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584887605719" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1584887605720">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584798285447" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1584798258158">
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584887605720" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1584885066663">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1584798258158" />
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1440.877@0.23.1440.877" timestamp="1584885066663" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1584884523445">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1584884523445" />
   </component>
 </project>
