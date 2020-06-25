@@ -8,9 +8,6 @@
       <remarks>$PROJECT_DIR$/LearnDjango/settings.py</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="MySQL - @114.116.4.196" uuid="6ed433ef-9ceb-4a58-aaaa-28220e39df21">
       <driver-ref>mysql.8</driver-ref>
