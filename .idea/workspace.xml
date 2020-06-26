@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="Django stop V 2.0.4">
-      <change afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/urls.py" afterDir="false" />
+    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment=" V 2.0.5">
       <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +120,7 @@
       <workItem from="1584883301997" duration="5539000" />
       <workItem from="1593086980346" duration="2273000" />
       <workItem from="1593094114918" duration="3132000" />
-      <workItem from="1593143127982" duration="1781000" />
+      <workItem from="1593143127982" duration="2136000" />
     </task>
     <task id="LOCAL-00001" summary="Django 升级到 3.0+ V 2.0.0">
       <created>1584797714190</created>
@@ -167,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593099853860</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" V 2.0.5">
+      <created>1593145570779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593145570779</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +196,8 @@
     <MESSAGE value="Django Hello World V 2.0.2" />
     <MESSAGE value="Django user loading V 2.0.3" />
     <MESSAGE value="Django stop V 2.0.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django stop V 2.0.4" />
+    <MESSAGE value=" V 2.0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value=" V 2.0.5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="191" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593093274744">
@@ -203,22 +208,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="305" y="48" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1584887750653" />
-    <state width="1398" height="227" key="GridCell.Tab.0.bottom" timestamp="1593145371295">
+    <state width="1398" height="227" key="GridCell.Tab.0.bottom" timestamp="1593145726217">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593145371295" />
-    <state width="1398" height="227" key="GridCell.Tab.0.center" timestamp="1593145371295">
+    <state width="1398" height="227" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593145726217" />
+    <state width="1398" height="227" key="GridCell.Tab.0.center" timestamp="1593145726216">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593145371295" />
-    <state width="1398" height="227" key="GridCell.Tab.0.left" timestamp="1593145371294">
+    <state width="1398" height="227" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593145726216" />
+    <state width="1398" height="227" key="GridCell.Tab.0.left" timestamp="1593145726215">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593145371294" />
-    <state width="1398" height="227" key="GridCell.Tab.0.right" timestamp="1593145371295">
+    <state width="1398" height="227" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593145726215" />
+    <state width="1398" height="227" key="GridCell.Tab.0.right" timestamp="1593145726216">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="227" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593145371295" />
+    <state width="1398" height="227" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593145726216" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1584885066663">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -227,10 +232,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593087919295" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593099864604">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593145572295">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593099864604" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593145572295" />
     <state x="385" y="224" key="search.everywhere.popup" timestamp="1593097537994">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
