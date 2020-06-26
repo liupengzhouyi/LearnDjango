@@ -39,6 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'LearnDjango',
     'book',
+    'card',
+    'person',
+    'monster',
+    'cardRelitionship',
+
+
 ]
 
 MIDDLEWARE = [
