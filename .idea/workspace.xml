@@ -19,33 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/book/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LearnDjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LearnDjango.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/241c1541-a1a1-4d5f-ac71-88084e16bcab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/241c1541-a1a1-4d5f-ac71-88084e16bcab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="Django stop V 2.0.4">
+      <change afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/book/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,12 +62,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,6 +77,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/book" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
@@ -136,7 +122,8 @@
       <workItem from="1584796889098" duration="1374000" />
       <workItem from="1584883301997" duration="5539000" />
       <workItem from="1593086980346" duration="2273000" />
-      <workItem from="1593094114918" duration="3092000" />
+      <workItem from="1593094114918" duration="3132000" />
+      <workItem from="1593143127982" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Django 升级到 3.0+ V 2.0.0">
       <created>1584797714190</created>
@@ -173,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584887750856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Django stop V 2.0.4">
+      <created>1593099853860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593099853860</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,22 +203,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="305" y="48" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1584887750653" />
-    <state width="1398" height="85" key="GridCell.Tab.0.bottom" timestamp="1593097900980">
+    <state width="1398" height="227" key="GridCell.Tab.0.bottom" timestamp="1593145371295">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="85" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593097900980" />
-    <state width="1398" height="85" key="GridCell.Tab.0.center" timestamp="1593097900980">
+    <state width="1398" height="227" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593145371295" />
+    <state width="1398" height="227" key="GridCell.Tab.0.center" timestamp="1593145371295">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="85" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593097900980" />
-    <state width="1398" height="85" key="GridCell.Tab.0.left" timestamp="1593097900979">
+    <state width="1398" height="227" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593145371295" />
+    <state width="1398" height="227" key="GridCell.Tab.0.left" timestamp="1593145371294">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="85" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593097900979" />
-    <state width="1398" height="85" key="GridCell.Tab.0.right" timestamp="1593097900980">
+    <state width="1398" height="227" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593145371294" />
+    <state width="1398" height="227" key="GridCell.Tab.0.right" timestamp="1593145371295">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="85" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593097900980" />
+    <state width="1398" height="227" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593145371295" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1584885066663">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -233,10 +227,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593087919295" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1584887752938">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593099864604">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1584887752938" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593099864604" />
     <state x="385" y="224" key="search.everywhere.popup" timestamp="1593097537994">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

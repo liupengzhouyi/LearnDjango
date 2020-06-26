@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
-
+from book.views import sayHelloAt20200626
+from book.views import indexPage
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('book.urls'))
+    url(r'^sayHelloAt20200626$', sayHelloAt20200626),
+    url(r'^indexPage$', indexPage)
 
 ]
