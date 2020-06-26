@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9">
+    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="update README.md V 2.0.10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDjango/hello.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +123,9 @@
       <workItem from="1593086980346" duration="2273000" />
       <workItem from="1593094114918" duration="3132000" />
       <workItem from="1593143127982" duration="6309000" />
-      <workItem from="1593162721704" duration="9102000" />
+      <workItem from="1593162721704" duration="9152000" />
+      <workItem from="1593189273984" duration="1315000" />
+      <workItem from="1593190718296" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="Django 升级到 3.0+ V 2.0.0">
       <created>1584797714190</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593177263975</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update README.md V 2.0.10">
+      <created>1593178712148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593178712148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +241,8 @@
     <MESSAGE value=" Dome&lt;查看图书&gt; V 2.0.7" />
     <MESSAGE value="切换数据库 V 2.0.8" />
     <MESSAGE value="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9" />
+    <MESSAGE value="update README.md V 2.0.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md V 2.0.10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="191" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593165033944">
@@ -241,22 +253,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="305" y="48" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1584887750653" />
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1593177223573">
+    <state width="1396" height="242" key="GridCell.Tab.0.bottom" timestamp="1593192712458">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593177223573" />
-    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1593177223572">
+    <state width="1396" height="242" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593192712458" />
+    <state width="1396" height="242" key="GridCell.Tab.0.center" timestamp="1593192712457">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593177223572" />
-    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1593177223572">
+    <state width="1396" height="242" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593192712457" />
+    <state width="1396" height="242" key="GridCell.Tab.0.left" timestamp="1593192712456">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593177223572" />
-    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1593177223573">
+    <state width="1396" height="242" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593192712456" />
+    <state width="1396" height="242" key="GridCell.Tab.0.right" timestamp="1593192712458">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593177223573" />
+    <state width="1396" height="242" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593192712458" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1593163378182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -265,10 +277,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593178220230" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593177267746">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593178714165">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593177267746" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593178714165" />
     <state x="606" y="356" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593173948748">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
