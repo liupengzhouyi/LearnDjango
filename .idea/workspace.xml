@@ -19,42 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="切换数据库 V 2.0.8">
-      <change afterPath="$PROJECT_DIR$/card/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/card/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cardRelitionship/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monster/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/person/views.py" afterDir="false" />
+    <list default="true" id="826cff71-69d1-47ae-b6ce-6fe599958309" name="Default Changelist" comment="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDjango/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +73,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,7 +121,7 @@
       <workItem from="1593086980346" duration="2273000" />
       <workItem from="1593094114918" duration="3132000" />
       <workItem from="1593143127982" duration="6309000" />
-      <workItem from="1593162721704" duration="7955000" />
+      <workItem from="1593162721704" duration="9102000" />
     </task>
     <task id="LOCAL-00001" summary="Django 升级到 3.0+ V 2.0.0">
       <created>1584797714190</created>
@@ -226,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593165209497</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9">
+      <created>1593177263975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593177263975</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +229,8 @@
     <MESSAGE value=" 路由配置以及数据传递 V 2.0.5" />
     <MESSAGE value=" Dome&lt;查看图书&gt; V 2.0.7" />
     <MESSAGE value="切换数据库 V 2.0.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="切换数据库 V 2.0.8" />
+    <MESSAGE value="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="建立玩家，怪物，卡牌，卡牌关系 V 2.0.9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="191" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593165033944">
@@ -286,18 +261,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.23.1440.877@0.23.1440.877" timestamp="1593163378182" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1593164018587">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1593178220230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593164018587" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593165211614">
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593178220230" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593177267746">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593165211614" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593177267746" />
     <state x="606" y="356" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593173948748">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="606" y="356" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.877@0.23.1440.877" timestamp="1593173948748" />
+    <state x="508" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593177510417">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="508" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1593177510417" />
     <state x="385" y="224" key="search.everywhere.popup" timestamp="1593097537994">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
