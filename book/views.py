@@ -4,6 +4,7 @@ from django.http import HttpResponse
 
 from django.template import loader, RequestContext, Context
 
+from book.models import Book
 
 # Create your views here.
 
@@ -20,4 +21,16 @@ def indexPage(request):
     res_html = template.render(context, request)
     # 返回
     return HttpResponse(res_html)
+
+def showBooks(request):
+    '''显示所有书籍'''
+    books = Book.objects.all();
+    return render(request, "book/showBooks.html", {'books' : books})
+
+
+def bookDetail(request, bookId):
+    book = Book.objects.get(id=bookId)
+    return render(request, "book/bookInformation.html", {'book': book})
+
+
 

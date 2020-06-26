@@ -18,9 +18,13 @@ from django.urls import path, include
 from django.conf.urls import url
 from book.views import sayHelloAt20200626
 from book.views import indexPage
+from book.views import showBooks
+from book.views import bookDetail
 
 urlpatterns = [
     url(r'^sayHelloAt20200626$', sayHelloAt20200626),
-    url(r'^indexPage$', indexPage)
+    url(r'^indexPage$', indexPage),
+    url(r'^showBooks$', showBooks),
+    url(r'^bookDetail/(\d+)$', bookDetail),
 
 ]
